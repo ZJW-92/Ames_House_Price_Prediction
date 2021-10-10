@@ -14,13 +14,23 @@ for predicting house prices provided by Ames Housing Dataset.
 ## 3 Steps 
 ### 3.1 Load data set 
 ### 3.2 EDA 
-* histograms 
+#### 3.2.1 Histograms 
 ![histograms-view](img/histograms.png)
-* heatmap
+
+#### 3.2.2 Heatmap
+
 ![heatmap-view](img/heatmap.png)
-* scatterplots 
+
+#### 3.2.3 Scatterplots 
+
 ![scatter-view](img/scatterplot.png)
-* pivot table 
+
+
+#### 3.2.4 Scatter matrix 
+
+![scatter_matrix-view](img/scatter_matrix.png)
+
+
 
 ### 3.3 Process dataset for ML 
 * Separate features 
