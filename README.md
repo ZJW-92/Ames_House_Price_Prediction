@@ -1,4 +1,6 @@
 # Case study: Feature Engineering - Ames house price prediction 
+![description-view](img/description.png)
+
 ## 1 Problem statement 
 
 In this case study, you will prepare your data in a way that it is suitable for a ML algorithm. 
@@ -13,8 +15,11 @@ for predicting house prices provided by Ames Housing Dataset.
 ### 3.1 Load data set 
 ### 3.2 EDA 
 * histograms 
+![histograms-view](img/histograms.png)
 * heatmap
+![heatmap-view](img/heatmap.png)
 * scatterplots 
+![scatter-view](img/scatter.png)
 * pivot table 
 
 ### 3.3 Process dataset for ML 
