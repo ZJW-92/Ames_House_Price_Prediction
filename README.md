@@ -19,7 +19,7 @@ for predicting house prices provided by Ames Housing Dataset.
 * heatmap
 ![heatmap-view](img/heatmap.png)
 * scatterplots 
-![scatter-view](img/scatter.png)
+![scatter-view](img/scatterplot.png)
 * pivot table 
 
 ### 3.3 Process dataset for ML 
