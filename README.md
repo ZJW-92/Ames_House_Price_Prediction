@@ -43,6 +43,8 @@ for predicting house prices provided by Ames Housing Dataset.
 
 ## 4 Linear Regression 
 
+![linear_regression-view](img/linear_regression.png)
+
 ## 5 Model refinement 
 ### 5.1 ridge regression 
 
@@ -53,5 +55,6 @@ for predicting house prices provided by Ames Housing Dataset.
 
 ## 6 Conslusion 
 
+![score-view](img/score.png)
 
 
