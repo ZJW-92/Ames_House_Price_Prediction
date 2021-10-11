@@ -3,36 +3,35 @@
 
 ## 1 Problem statement 
 
-In this case study, you will prepare your data in a way that it is suitable for a ML algorithm. 
-You will achieve this by first exploring the data and performing feature transformations on provided dataset of house price prediction ML problem.
+In this case study, you will prepare Ames Housing Dataset in a csv file in a way that it is suitable for a ML algorithm. 
+You will achieve this by first exploring the data and performing feature transformations on provided dataset of house price prediction ML problem. You are required to train a ML model by using linear regression, ridge regression and lasso regression 
+for predicting house prices.
 
-## 2 Task
-You are required to train a ML model by using linear regression, ridge regression and lasso regression 
-for predicting house prices provided by Ames Housing Dataset. 
-
-
-## 3 Steps 
-### 3.1 Load data set 
-### 3.2 EDA 
-#### 3.2.1 Histograms 
+## 2 Steps 
+### 2.1 Load data set 
+### 2.2 Exploratory Data Analysis (EDA)
+#### 2.2.1 Histograms 
 ![histograms-view](img/histograms.png)
 
-#### 3.2.2 Heatmap
+#### 2.2.2 Heatmap
 
 ![heatmap-view](img/heatmap.png)
 
-#### 3.2.3 Scatterplots 
+#### 2.2.3 Scatterplots 
 
 ![scatter-view](img/scatterplot.png)
 
 
-#### 3.2.4 Scatter matrix 
+#### 2.2.4 Scatter matrix 
 
 ![scatter_matrix-view](img/scatter_matrix.png)
 
+#### 2.2.5 Correlation between other features and 'SalePrice'
+![sale_price_correlation-view](img/sale_price_correlation.png)
 
+The target 'SalePrice' variable is highly correlated with features such as OverallQual, GrLivArea, GarageCars, GarageArea and TotalBsmtSF among others.
 
-### 3.3 Process dataset for ML 
+### 2.3 Process dataset for ML 
 * Separate features 
 - 1. numerical features 
 - 2. categorical features
@@ -41,19 +40,19 @@ for predicting house prices provided by Ames Housing Dataset.
 - 3. handle missing values 
 
 
-## 4 Linear Regression 
+## 3 Linear Regression 
 
 ![linear_regression-view](img/linear_regression.png)
 
-## 5 Model refinement 
-### 5.1 ridge regression 
+## 4 Model refinement 
+### 4.1 ridge regression 
 
 
-### 5.2 lasso regression 
+### 4.2 lasso regression 
 
 
 
-## 6 Conslusion 
+## 5 Conslusion 
 
 ![score-view](img/score.png)
 
