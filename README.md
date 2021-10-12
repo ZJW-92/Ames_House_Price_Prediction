@@ -42,6 +42,11 @@ The target 'SalePrice' variable is highly correlated with features such as Overa
 ## 3 Linear Regression 
 Split dataset in training set (X_train, y_train) and test set (X_test, y_test)
 
+## 4 Evaluate model 
+- R^2 score on trainig set: 0.94609
+- MSE score on trainig set: 0.00808
+- R^2 score on test set: 0.89136
+- MSE score on test set: 0.01472
 
 ![linear_regression-view](img/linear_regression.png)
 
