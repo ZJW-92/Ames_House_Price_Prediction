@@ -62,7 +62,10 @@ Split dataset in training set (X_train, y_train) and test set (X_test, y_test)
 
 ## 5 Conslusion 
 
-![score-view](img/score.png)
+|R^2 score |Linear Regression |Ridge Regression |Lasso Regression 
+| --- | --- | --- | --- |
+|training set| 0.94609 | 0.94598 | 0.94169 |
+|test set| 0.89136 |0.89410 |0.90843 |
 
 In practice, ridge regression is usually the first choice between two models. 
 However, if you have a large amount of features and expect only a few of them to be important, Lasso might be a better choice.
