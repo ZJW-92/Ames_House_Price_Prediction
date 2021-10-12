@@ -32,15 +32,16 @@ for predicting house prices.
 The target 'SalePrice' variable is highly correlated with features such as OverallQual, GrLivArea, GarageCars, GarageArea and TotalBsmtSF among others.
 
 ### 2.3 Process dataset for ML 
-* Separate features 
-- 1. numerical features 
-- 2. categorical features
 
-* Data cleaning 
-- 3. handle missing values 
-
+* Handle missing values 
+ * 1. Fill nulls for 'LotFrontage' with median value calculated after grouping by 'Neighborhood'
+ * 2. Fill nulls for 'GarageYrBlt','MasVnrArea' with 0
+* Apply log-transform on target feature 'SalePrice'
+* One-hot encoding
 
 ## 3 Linear Regression 
+Split dataset in training set (X_train, y_train) and test set (X_test, y_test)
+
 
 ![linear_regression-view](img/linear_regression.png)
 
