@@ -51,15 +51,19 @@ Split dataset in training set (X_train, y_train) and test set (X_test, y_test)
 ![linear_regression-view](img/linear_regression.png)
 
 ## 4 Model refinement 
-### 4.1 ridge regression 
+### 4.1 Ridge regression (alpha=0.05)
+- R^2 score on training set: 0.94598
+- R^2 score on test set:  0.89410
 
+### 4.2 Lasso regression (alpha= 0.0001)
 
-### 4.2 lasso regression 
-
-
+- R^2 score on trainig set:  0.94169
+- R^2 score on test set:  0.90843
 
 ## 5 Conslusion 
 
 ![score-view](img/score.png)
 
+In practice, ridge regression is usually the first choice between two models. 
+However, if you have a large amount of features and expect only a few of them to be important, Lasso might be a better choice.
 
