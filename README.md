@@ -50,17 +50,17 @@ Split dataset in training set (X_train, y_train) and test set (X_test, y_test)
 
 ![linear_regression-view](img/linear_regression.png)
 
-## 4 Model refinement 
-### 4.1 Ridge regression (alpha=0.05)
+## 5 Model refinement 
+### 5.1 Ridge regression (alpha=0.05)
 - R^2 score on training set: 0.94598
 - R^2 score on test set:  0.89410
 
-### 4.2 Lasso regression (alpha= 0.0001)
+### 5.2 Lasso regression (alpha= 0.0001)
 
 - R^2 score on trainig set:  0.94169
 - R^2 score on test set:  0.90843
 
-## 5 Conslusion 
+## 6 Conslusion 
 
 |R^2 score |Linear Regression |Ridge Regression |Lasso Regression 
 | --- | --- | --- | --- |
