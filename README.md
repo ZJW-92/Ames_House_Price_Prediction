@@ -1,5 +1,5 @@
 # ***Case study: Feature Engineering-- Ames house price prediction***
-![description-view](img/description.png)
+<p align="left"><img src="img/description.png" width="40%"></p>
 
 ## ***1 Problem statement*** 
 
@@ -8,33 +8,33 @@ You will achieve this by first exploring the data and performing feature transfo
 for predicting house prices._
 
 ## ***2 Steps***
-- 2.1 Load data set 
-- 2.2 Exploratory Data Analysis (EDA)
-- 2.2.1 Histograms 
+- _2.1 Load data set_
+- _2.2 Exploratory Data Analysis (EDA)_
+- 1. Histograms
 
 <img src="img/histograms.png" width="70%">
 
-- 2.2.2 Heatmap
+- 2. Heatmap
 
 <img src="img/heatmap.png" width="50%">
 
 
-- 2.2.3 Scatterplots 
+- 3. Scatterplots 
 
 ![scatter-view](img/scatterplot.png)
 
 
-- 2.2.4 Scatter matrix 
+- 4. Scatter matrix 
 
 ![scatter_matrix-view](img/scatter_matrix.png)
 
--  2.2.5 Correlation between other features and 'SalePrice'
+-  5. Correlation between other features and 'SalePrice'
 
 <img src="img/sale_price_correlation.png" width="20%">
 
 ***The target 'SalePrice' variable is highly correlated with features such as OverallQual, GrLivArea, GarageCars, GarageArea and TotalBsmtSF among others.***
 
-- 2.3 Process dataset for ML 
+- _2.3 Process dataset for ML_
 
 Steps:
 
